@@ -42,8 +42,8 @@ public class Main {
         byte machinePerformanceBottle = 16;
         byte timePerfomanceMinute = 2;
 
-        byte MinutesWork = 20;
-        int totalBottleTwentyMinutes = (MinutesWork/timePerfomanceMinute)*machinePerformanceBottle;
+        byte minutesWork = 20;
+        int totalBottleTwentyMinutes = (minutesWork/timePerfomanceMinute)*machinePerformanceBottle;
 
         byte dayWork = 1;
         byte inDayHours = 24;
@@ -59,7 +59,7 @@ public class Main {
         int totalDaysInTotalMonthWork = inOneMonthDay*totalMonthWork;
         int totalBottleOneMonthWork = (((totalDaysInTotalMonthWork*inDayHours)*inDayMinutes)/timePerfomanceMinute)*machinePerformanceBottle;
 
-        System.out.println("За " + MinutesWork + " минут машина произвела " + totalBottleTwentyMinutes + " штук бутылок");
+        System.out.println("За " + minutesWork + " минут машина произвела " + totalBottleTwentyMinutes + " штук бутылок");
         System.out.println("За " + dayWork + " сутки машина произвела " + totalBottleDayWork + " штук бутылок");
         System.out.println("За " + totalDaysWork + " дня машина произвела " + totalBottleThreeDayWork + " штук бутылок");
         System.out.println("За " + totalMonthWork + " месяц машина произвела " + totalBottleOneMonthWork + " штук бутылок");
