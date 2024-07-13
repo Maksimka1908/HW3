@@ -7,12 +7,12 @@ public class Main {
         long c = 500000L;
         float d = 5.340f;
         double e = 2.05846;
-        System.out.println("Знчение переменной t c типом byte равно " + t );
-        System.out.println("Знчение переменной a c типом short равно " + a );
-        System.out.println("Знчение переменной b c типом int равно " + b );
-        System.out.println("Знчение переменной c c типом long равно " + c );
-        System.out.println("Знчение переменной d c типом float равно " + d );
-        System.out.println("Знчение переменной e c типом double равно " + e );
+        System.out.println("Значение переменной t c типом byte равно " + t);
+        System.out.println("Значение переменной a c типом short равно " + a);
+        System.out.println("Значение переменной b c типом int равно " + b);
+        System.out.println("Значение переменной c c типом long равно " + c);
+        System.out.println("Значение переменной d c типом float равно " + d);
+        System.out.println("Значение переменной e c типом double равно " + e);
 
 
         float aa = 27.12f;
@@ -24,8 +24,6 @@ public class Main {
         byte gg = 67;
 
 
-
-
         byte studentsLyudmilaPavlovna = 23;
         byte studentsAnnaSergeevna = 27;
         byte studentsEkaterinaSergeevna = 30;
@@ -35,8 +33,6 @@ public class Main {
         int eachStudentPapers = paperPurchased/totalStudents;
 
         System.out.println("На каждого ученика расчитано " + eachStudentPapers + " листов бумаги.");
-
-
 
 
         byte machinePerformanceBottle = 16;
@@ -65,7 +61,6 @@ public class Main {
         System.out.println("За " + totalMonthWork + " месяц машина произвела " + totalBottleOneMonthWork + " штук бутылок");
 
 
-
         byte totalAmountPaint = 120;
         byte whitePaintOneCabinet = 2;
         byte brownPaintOneCabinet = 4;
@@ -75,8 +70,6 @@ public class Main {
         int totalBrownPaint = brownPaintOneCabinet*totalCabinetSchool;
 
         System.out.println("В школе, где "+ totalCabinetSchool + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски.");
-
-
 
 
         byte totalBanana = 5;
@@ -105,8 +98,6 @@ public class Main {
         System.out.println("Вес завтрака в киллограммах составил " + weightKgBreakfast + " кг.");
 
 
-
-
         byte weigtLossKg = 7;
         int kgPerGr = 1000;
         int weightLossGr = weigtLossKg*kgPerGr;
@@ -121,10 +112,6 @@ public class Main {
 
         System.out.println("Если сбрасывать каждый день по "+ needLoseWeightEveryDayGr + " гр. необходимо " + requriedNumberDays + " дней.");
         System.out.println("Если сбрасывать каждый день по "+ ifNeedLoseWeightEveryDayGr + " гр. необходимо " + thatRequriedNumberDays + " дней.");
-
-
-
-
 
 
         int incomeMasha = 67760;
@@ -143,11 +130,8 @@ public class Main {
         float incomeBecomeKristina = incomeKristina+incomeIncreasesKristina;
 
 
-        System.out.println("Маша теперь получает " + incomeBecomeMasha + " рублей. Ее годовой доход вырос на " + incomeIncreasesMasha+ " рублей.");
-        System.out.println("Маша теперь получает " + incomeBecomeDenis + " рублей. Ее годовой доход вырос на " + incomeIncreasesDenis+ " рублей.");
-        System.out.println("Маша теперь получает " + incomeBecomeKristina + " рублей. Ее годовой доход вырос на " + incomeIncreasesKristina+ " рублей.");
-
-
-
+        System.out.println("Маша теперь получает " + incomeBecomeMasha + " рублей. Ее годовой доход вырос на " + incomeIncreasesMasha + " рублей.");
+        System.out.println("Денис теперь получает " + incomeBecomeDenis + " рублей. Ее годовой доход вырос на " + incomeIncreasesDenis + " рублей.");
+        System.out.println("Кристина теперь получает " + incomeBecomeKristina + " рублей. Ее годовой доход вырос на " + incomeIncreasesKristina + " рублей.");
     }
 }
